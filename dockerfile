@@ -3,7 +3,9 @@ FROM node:25-alpine3.22
 WORKDIR /usr/src/app
 COPY package*.json ./
 
-RUN yarn install
+# RUN yarn install
+RUN npm install -g pnpm
+RUN pnpm install
 
 COPY . .
 

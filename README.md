@@ -10,7 +10,7 @@ This is a products management microservice built with NestJS framework. It provi
 
 Before you begin, ensure you have the following installed:
 - Node.js (v18 or higher)
-- npm or yarn
+- npm, yarn or pnpm
 - Git
 
 ## Installation and Setup
@@ -32,6 +32,9 @@ npm install
 
 # Or using yarn
 yarn install
+
+# Or using pnpm
+pnpm install
 ```
 
 ### 3. Environment Configuration
@@ -69,6 +72,9 @@ npm run start:dev
 
 # Or using yarn
 yarn start:dev
+
+# Or using pnpm
+pnpm start:dev
 ```
 
 The application will start in watch mode with hot reload.
@@ -86,7 +92,14 @@ npm run start:prod
 ### Debug Mode
 
 ```bash
+# Using npm
 npm run start:debug
+
+# Or using yarn
+yarn start:debug
+
+# Or using pnpm
+pnpm start:debug
 ```
 
 ## Available Scripts
